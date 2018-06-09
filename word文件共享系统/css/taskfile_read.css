@@ -1,0 +1,14 @@
+.file_content{width:1000px;margin: 0 auto;height: auto;margin-top: 30px;}
+.file_content .left{width:73%;height: auto;}
+.file_content .left .con_head{height: 40px;line-height: 40px;font-size: 18px;font-weight: bolder;color: #1f1f1f}
+.left .p_task{color: #3d3d3d;}
+.left .info{height: 30px;line-height: 30px;color: #333;}
+.left .file_con{width: 96%;min-height: 700px;border:1px solid #ccc;background: #fff;margin: 0 auto;margin-top: 20px;padding: 2%;}
+.file_content .right{width: 21.5%;height: 300px;border:1px solid #ccc;background: #fff;margin-top: 108px;padding: 2%;}
+.right .right_head{height: 40px;line-height: 40px;font-size: 16px;border-bottom:1px solid #ccc;font-weight: bolder;}
+.right .score_div{height: 40px;line-height: 40px;margin-top: 10px;}
+.score_div .score_box{width: 50px;height: 30px;}
+.discuss_div{height: 80px;margin-top: 10px;}
+.discuss_div .discuss_box{width: 165px;height: 70px;}
+.submit_div{height: 50px;width: 100%;margin-top: 10px;}
+.submit_div .submit{height: 30px;width: 80px;float: right;}

@@ -1,0 +1,133 @@
+
+.inscontent_div{width: 1000px;margin: 50px auto;}
+.inscontent_div .insleft_div{width: 290px;border:1px solid #ccc;min-height: 300px;background: #eee;background: url("../images/icon/bg_icon.png") repeat;}
+.left_head .head_img{background: url("../images/userhead.jpg");height: 150px;width: 150px;border:1px solid #ccc;border-radius: 5px;margin-top: 15px;margin-left: 15px;}
+.left_head .head_info{margin-top: 15px;margin-left: 14px;}
+.head_info .hello_text{font-size: 16px;color: #553d61;height: 16px;}
+.head_info .time_text{font-size: 12px;height:12px;margin-top: 16px; color: #553d61}
+.head_info .week_text{font-size: 22px;height: 22px;margin-top: 16px;color: #33659a}
+.insleft_div .left_menu{margin-top: 110px;}
+.left_menu .listmenu{height: 50px;width: 190px;padding-left: 100px;border-top:1px solid #ccc;line-height: 50px;font-size: 14px;cursor: pointer;}
+.left_menu .listmenu:hover{background: #eee;border-left: 3px solid #013366;padding-left: 97px;}
+.insright_div{margin-left: 26px;width: 682px;}
+
+.full{width: 100%;height: 100%;border:none;line-height:24px;background: none;}
+.full:focus{border:none;}
+
+.rightdiv h2{font-size: 18px;margin-top: 10px;}
+.rightdiv hr{margin-top: 10px;width: 100%;}
+.insright_div h2{font-size: 18px;margin-top: 10px;}
+.insright_div hr{margin-top: 10px;width: 100%;}
+
+.listmenu .close_icon{background: url("../images/icon/close.png");width: 14px;height: 14px;margin-left: 20px;font-size: 14px;top:18px;right: 60px;}
+.great_list .list{height: 40px;width: 140px;padding-left: 150px;border-top: 1px solid #ddd;line-height: 40px;background: #f3e9e9;cursor: pointer;opacity: 0.5;}
+.great_list .list:hover{color: #f44336}
+
+.class_list{margin-top: 15px;}
+.class_list p{font-weight: bold;font-size: 16px;}
+.class_list ul li{float: left;display: block;height: 24px;width: 218px;border:1px solid #fff;text-align: left;margin-left: 5px;color:green;line-height: 24px; cursor: pointer;text-align: center;margin-top:5px;}
+.class_list ul li:hover{border-radius: 3px;border:1px solid green;}
+.class_list ul{margin-top: 15px;}
+
+.rightdiv .studentlist_div{margin-top: 15px;}
+.rightdiv .studentlist_div .classname{font-size: 16px;}
+.rightdiv .studentlist_div .coed{color: #633}
+
+.rightdiv .student_table{margin-top: 10px;border:1px solid #ccc;}
+.rightdiv .student_table .t_head{background: #ddd;text-align: center;}
+.rightdiv .student_table td{height:24px;border-left:1px solid #ccc;border-bottom: 1px solid #ccc}
+
+.rightdiv .student_table .td0{width: 90px;text-align: center;}
+.rightdiv .student_table .td1{width: 50px;text-align: center;}
+.rightdiv .student_table .td2{width: 100px;}
+.rightdiv .student_table .td3{width: 50px;text-align: center;}
+.rightdiv .student_table .td4{width: 374px;border-right: none;text-align: center;}
+.rightdiv .student_table .student_namela{width: 95%;padding-left: 5%;}
+
+.rightdiv .student_table .student_nola{text-align: center;}
+.rightdiv .student_table .student_change{display: none;}
+.rightdiv .student_table .student_del{margin-left: 20px;cursor: pointer;display: none;}
+.rightdiv .student_table .student_del:hover{text-decoration: underline;}
+.rightdiv .student_table .recove_psw{width:100px;height:20px;margin-left: 20px;cursor: pointer;color: green;border:1px solid #fff;background: transparent;display: none;}
+.rightdiv .student_table .recove_psw:hover{border:1px solid green;border-radius: 3px;}
+
+.add_studenttbody .student_addname{width: 95%;padding-left: 5%}
+.add_studenttbody .sex_select{text-align: center;}
+
+.add_studenttbody .student_notext{text-align: center;}
+.student_change.ok{color:green;cursor: pointer;}
+
+.student_tbody tr:hover>td>.student_del{display: inline-block;}
+.student_tbody tr:hover>td>.student_change{display: inline-block;}
+.student_tbody tr:hover>td>.recove_psw{display: inline-block;}
+.rightdiv .student_table .tr2{background: #eee}
+
+.rightdiv .nianjidiv{margin-top: 20px;}
+.nianjilistdiv label{margin-left: 15px;cursor: pointer;color: #9c6}
+.nianjilistdiv .active{color: #ccc;cursor: default;}
+.nianjilistdiv .active:hover{text-decoration: none;}
+.nianjilistdiv label:hover{text-decoration: underline;}
+
+.rightdiv .classddiv{margin-top: 20px;}
+.classlistdiv .classlist{cursor: pointer; display:block;float:left;text-align: center;line-height: 30px; width: 200px;height: 30px;border:1px solid transparent;margin-left: 10px;border-radius: 3px;color: #6c9 }
+.classlistdiv .classlist:hover{border-color: #6c9;}
+.classlistdiv .classlist.active{color: #ccc;cursor: default;}
+.classlistdiv .classlist.active:hover{border:1px solid transparent;}
+.classddiv .div1{height: 32px;line-height: 32px;}
+.rightdiv .classinfodiv{margin-top: 20px;font-size: 14px;}
+.rightdiv .classinfodiv .classname{color: #036;font-size: 14px;}
+.rightdiv .term_table{margin-top: 15px;border:1px solid #09c;}
+.rightdiv .term_table .tremlisttr{height: 30px;text-align: center;}
+.rightdiv .term_table .thead{background: #6cc;color:#fff;font-size: 14px;height: 30px;text-align: center;} 
+.rightdiv .term_table .td1{width: 50px;}
+.rightdiv .term_table .td2{width: 120px;}
+.rightdiv .term_table .td3{width: 150px;}
+.rightdiv .term_table .td4{width: 150px;}
+.rightdiv .term_table .td5{width: 209px;}
+.rightdiv .term_table .tr1{background: #f4f4f4}
+.rightdiv .term_table .tr2{background: #fff}
+.term_table .tremtbody .tremlisttr{cursor: pointer;border-top: 1px solid #f1f1f1;border-bottom: 1px solid #f1f1f1}
+.term_table .tremtbody .tremlisttr:hover{background: #eee }
+
+
+.tremless_tbody .lesslistdiv {background: #fff; padding-top: 20px;padding-bottom: 20px;box-shadow: 0px 5px 10px #111 inset}
+ .lesslistdiv .headteat_p{margin-left: 15px;}
+ .lesslistdiv p{margin-top: 15px;margin-left: 15px}
+.headteat_p .trem_stae{margin-left: 5px;font-size: 10px;}
+.lesslistdiv .less_table{margin-top: 15px;margin-left: 15px;background: none;border:1px solid #ccc;}
+.lesslistdiv .addless{background: #fafafa;border-top:1px solid #6cf;}
+.less_table .lt_head{background: #ccc;color: #fff;text-align: center;}
+.less_table tr{height: 30px;}
+.less_table .ltd1{width: 50px;text-align: center;}
+.less_table .ltd2{width: 100px;}
+.less_table .ltd3{width: 140px;}
+.less_table .ltd4{width: 140px;}
+.less_table .ltd5{width: 100px;}
+.less_table .ltd6{width: 100px;text-align: center;}
+
+.lesslist_tbody .deleteless_but{width: 80px;height: 24px;cursor: pointer;display: none;}
+.lesslist_tbody tr:hover>td>.deleteless_but{display: inline-block;}
+
+.addless .addlessteabut{background: none; width: 80px;height: 24px;border:1px solid transparent;color: #ccc;}
+.addless .addlessteabut.ok{color: #9c6;cursor: pointer;}
+.addless .addlessteabut.ok:hover{border-radius: 3px;border:1px solid #9c6;}
+
+/*修改密码*/
+.changepsw_div .oldpsw-div{margin-top: 30px;}
+.changepsw_div .oldpsw-div .oldpsw_input{padding-left:5px;margin-left: 10px;border:1px solid #9cf;border-radius: 3px;background: none;width: 180px;height: 30px;}
+.changepsw_div .oldpsw-div .oldpsw_la{margin-left: 15px;}
+.changepsw_div .newpsw_div{margin-top: 20px;}
+.changepsw_div .newpsw_div .newpsw_input{padding-left:5px;width: 180px;height: 30px;border:1px solid #9cf;border-radius: 3px;background: none;margin-left: 10px;}
+.changepsw_div .newpsw_div .newpsw_la{margin-left: 15px;}
+.changepsw_div .confpsw_div{margin-top: 20px;}
+.changepsw_div .confpsw_div .comfpsw_input{padding-left:5px;width: 180px;height: 30px;border:1px solid #9cf;border-radius: 3px;background: none;margin-left: 7px;}
+.changepsw_div .confpsw_div .confrpsw_la{margin-left: 15px;}
+
+.changepsw_div .changepswbut_div{margin-top: 30px;}
+.changepsw_div .change_but{margin-left: 20px;width: 100px;height: 30px;border-radius: 3px;border:1px solid green;background: none;color: green;cursor: pointer;}
+.changepsw_div .change_but:hover{border-color: #9c6;color: #9c6}
+.changepsw_div .camcel_but{margin-left: 20px;width: 100px;height: 30px;border-radius: 3px;border:1px solid #ccc;background: none;color: #ccc;cursor: pointer;}
+.changepsw_div .camcel_but:hover{border-color: red;color: red}
+.error{color:red;}
+.green{color: #9c6}
+.blue{color: #9cf}

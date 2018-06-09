@@ -1,0 +1,42 @@
+.contend_div{width: 1000px;margin: 0 auto;margin-top: 30px;height: auto;}
+.contend_div .menu_list_div{width: 200px;height: auto;border-top: 1px solid #ccc;border-right: 1px solid #ccc;}
+.contend_div .menu_list_div .list{height: 50px;width:198px;border-bottom: 1px solid #cdcdcd;text-align: center;border-left:1px solid #ccc;padding-left:1px;line-height: 50px;font-size: 18px;background:#f7f7f7;cursor: pointer; }
+.contend_div .menu_list_div .list:hover{background-color: #fff;border-left: 2px solid #26a693;color: #3d3d3d;padding-left: 0px;}
+.contend_div .menu_list_div .list.active{color: #000;border-left: 2px solid #26a693;cursor: default;background-color: #fff;padding-left: 0px;}
+
+
+.contend_div .file_list{height: auto;width: 783px;margin-left:15px;}
+.contend_div .file_list .head{width: 788px;height: 40px;line-height: 40px;border-bottom: 1px solid #ccc;}
+.contend_div .file_list .sort{width: 50px;margin-left: 10px;color:#3d3d3d;text-align: left;height: 40px;line-height: 40px;font-size: 16px;}
+.contend_div .file_list .sort_list{width: 60px;height: 37px;line-height: 36px;margin-bottom:-2px;border:2px solid transparent;cursor: pointer; text-align: center;color:#959595;font-size: 16px;}
+.contend_div .file_list .sort_list:hover{color: #ccc;border-bottom: 2px solid #26a693;}
+.contend_div .file_list .sort_list.active{color: #000;border-bottom: 2px solid #26a693;cursor: default;}
+
+.contend_div .file_content{height: 115px;width: 100%;border-bottom: 1px solid #c9c9c9;margin-top: 0px; cursor: pointer;padding-top:20px;padding-right: 5px; }
+.contend_div .file_content:hover .preview_title{color: #535353;text-decoration: underline;}
+.contend_div .file_content:hover {background: #f3efef}
+.contend_div .word_icon{background: url(../images/icon/word_icon.png) no-repeat;width: 85px;height: 95px;margin-left: 15px;}
+.contend_div .word_text{width: 665px;height:100%;margin-left: 15px;}
+.contend_div .file_content .preview_head{height: 30px;width: 100%;line-height: 30px;}
+.contend_div .file_content .preview_head .right{color: #535353;}
+.contend_div .file_content .preview_title{font-size: 18px;color: #000;font-weight: bold;}
+.contend_div .file_content .preview_infor{margin-top: 5px;color: #535353}
+.contend_div .file_content .perview_text{margin-top: 5px;line-height: 20px;}
+
+/*分页*/
+.page_div{width: 600px;height: 30px;margin-top: 30px;margin-left: 40px;}
+.page_div .page_first, .page_div .page_next{width: 40px;height: 24px;line-height: 24px;border: 1px solid #dfe6eb;background: #fff;text-align: center;float: left;}
+.page_div .page_next{margin-left: 5px;}
+.page_div .page_list{width: 24px;height: 24px;line-height: 24px;text-align:center; border:1px solid #dfe6eb;background: #fff;float: left;margin-left: 5px;}
+.page_div{color: #333;}
+.page_div .page_sumtext, .page_div .page_sum{width: 30px;height: 24px; text-align: center;line-height: 24px;float: left;}
+.page_div .page_sumtext.count{margin-left: 10px;}
+.page_div .page_first, .page_div .page_next, .page_div .page_list{cursor: pointer;}
+.page_div .page_first:hover, .page_div .page_next:hover, .page_div .page_list:hover{background: #aaa;color: #fff;}
+.page_div .active{border:none;font-weight: bold;color: #000;cursor: default;}
+.page_div .active:hover{background: #fff;color: #000;}
+.bottom_div{margin-top: 50px;}
+
+
+.page_div .page.visited{background: #eee;color: #000;cursor:default;}
+.page_div .page.visited:hover{background: #eee;color: #000;cursor:default;}

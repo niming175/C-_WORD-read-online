@@ -1,0 +1,14 @@
+D:\word文件共享系统\业务逻辑层.dll\bin\Debug\业务逻辑层.dll.dll
+D:\word文件共享系统\业务逻辑层.dll\bin\Debug\业务逻辑层.dll.pdb
+D:\word文件共享系统\业务逻辑层.dll\obj\Debug\ResolveAssemblyReference.cache
+D:\word文件共享系统\业务逻辑层.dll\obj\Debug\业务逻辑层.dll.dll
+D:\word文件共享系统\业务逻辑层.dll\obj\Debug\业务逻辑层.dll.pdb
+D:\word文件共享系统\业务逻辑层.dll\bin\Debug\数据结构层.dal.dll
+D:\word文件共享系统\业务逻辑层.dll\bin\Debug\数据结构层.dal.pdb
+H:\word文件共享系统\业务逻辑层.dll\bin\Debug\业务逻辑层.dll.dll
+H:\word文件共享系统\业务逻辑层.dll\bin\Debug\业务逻辑层.dll.pdb
+H:\word文件共享系统\业务逻辑层.dll\bin\Debug\数据结构层.dal.dll
+H:\word文件共享系统\业务逻辑层.dll\bin\Debug\数据结构层.dal.pdb
+H:\word文件共享系统\业务逻辑层.dll\obj\Debug\业务逻辑层.dll.csprojResolveAssemblyReference.cache
+H:\word文件共享系统\业务逻辑层.dll\obj\Debug\业务逻辑层.dll.dll
+H:\word文件共享系统\业务逻辑层.dll\obj\Debug\业务逻辑层.dll.pdb

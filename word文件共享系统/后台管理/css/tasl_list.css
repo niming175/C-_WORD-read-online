@@ -1,0 +1,37 @@
+.content{width: 1000px;height:auto;padding-top: 50px;margin: 0 auto;}
+.content .tr_search{height: 40px;}
+.tr_search .search_box{height: 30px;width: 200px;border-radius: 3px 0 0 3px;padding-left: 5px}
+.tr_search .dr_select{height: 32px;width: 100px;margin-left: -4px;border-bottom:none;border-top-width: 2px; border-radius: 0 3px 3px 0;}
+.tr_search .search_but{height: 32px;width: 80px;margin-left: 15px;cursor: pointer;}
+.content .tr_title{height: 50px;font-size: 16px;}
+.tr_title .td_title{font-size: 16px;text-align: left;width: 65%;font-weight: bold;}
+
+
+.table2{border:1px solid #004986;}
+.table2 td{padding-left: 4px;}
+.tr_list{background: #001c58;height: 30px;}
+.tr_list td{text-align: center;color: #fff;padding-left: 0px}
+.tr_list .td1{width: 8%;text-align: center;color: #fff}
+.tr_list .td2{width: 35%;}
+.tr_list .td3{width: 15%;}
+.tr_list .td4{width: 22%}
+.tr_list .td5{width: 10%}
+.tr_list .td6{width: 20%}
+.tr1 .edit_but{height: 20px;width: 50px;cursor: pointer;}
+.table2 .tr1{height: 30px; cursor: pointer;}
+.table2 .tr1:hover{background: #eee}
+.table2 .tr1.odd{background: #d1d1d1}
+.table2 .tr1.even{background: #7ecef4}
+
+.tr_title .td_task{padding-left: 20px;font-size: 16px;font-weight: bold;}
+
+.td_task_table{vertical-align: top;}
+.task_table{width: 70%;margin-left: 5%;background: #fff;padding:10px;}
+.task_table .td_text{width: 20%;height: 50px;}
+.task_table .td2{vertical-align: top;height: 100px;}
+.task_table .td3{height: 50px;}
+.task_table .dr_select{height: 30px;width: 40%;border-radius: 3px;}
+.task_table  .select_project{width: 56%;height: 30px;border-radius: 3px;margin-left: 2%}
+.task_table .title_box{width: 98%;height: 30px;border-radius: 3px;border:1px solid #ccc;}
+.task_table .text_box{width: 96%;height: 80px;padding:2%;}
+.task_table .submit{width: 100px;height: 30px;cursor: pointer;}

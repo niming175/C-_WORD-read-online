@@ -1,0 +1,9 @@
+D:\word文件共享系统\数据结构层.dal\bin\Debug\数据结构层.dal.dll
+D:\word文件共享系统\数据结构层.dal\bin\Debug\数据结构层.dal.pdb
+D:\word文件共享系统\数据结构层.dal\obj\Debug\ResolveAssemblyReference.cache
+D:\word文件共享系统\数据结构层.dal\obj\Debug\数据结构层.dal.dll
+D:\word文件共享系统\数据结构层.dal\obj\Debug\数据结构层.dal.pdb
+H:\word文件共享系统\数据结构层.dal\bin\Debug\数据结构层.dal.dll
+H:\word文件共享系统\数据结构层.dal\bin\Debug\数据结构层.dal.pdb
+H:\word文件共享系统\数据结构层.dal\obj\Debug\数据结构层.dal.dll
+H:\word文件共享系统\数据结构层.dal\obj\Debug\数据结构层.dal.pdb

@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "word文件共享系统", "word文件共享系统\word文件共享系统.csproj", "{DC86ACBE-1E6E-4405-90F6-3B0F26B66699}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "数据结构层.dal", "数据结构层.dal\数据结构层.dal.csproj", "{D038000A-F9E1-4F4F-8412-E8C6D5A3BE5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "业务逻辑层.dll", "业务逻辑层.dll\业务逻辑层.dll.csproj", "{07E7B2B5-5A19-4C51-B3EC-C9FF2C9AAD45}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC86ACBE-1E6E-4405-90F6-3B0F26B66699}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC86ACBE-1E6E-4405-90F6-3B0F26B66699}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC86ACBE-1E6E-4405-90F6-3B0F26B66699}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC86ACBE-1E6E-4405-90F6-3B0F26B66699}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D038000A-F9E1-4F4F-8412-E8C6D5A3BE5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D038000A-F9E1-4F4F-8412-E8C6D5A3BE5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D038000A-F9E1-4F4F-8412-E8C6D5A3BE5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D038000A-F9E1-4F4F-8412-E8C6D5A3BE5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07E7B2B5-5A19-4C51-B3EC-C9FF2C9AAD45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07E7B2B5-5A19-4C51-B3EC-C9FF2C9AAD45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07E7B2B5-5A19-4C51-B3EC-C9FF2C9AAD45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07E7B2B5-5A19-4C51-B3EC-C9FF2C9AAD45}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

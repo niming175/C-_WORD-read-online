@@ -1,0 +1,28 @@
+.content{width: 1000px;margin: 0 auto;margin-top: 30px;} 
+.file_title{font-size: 16px;font-weight: bold;height: 50px;}
+.table1 {width: 80%}
+.table1 .td_search{height: 50px;}
+.td_search .search_box{height: 30px;width: 200px;border:1px solid #ccc;background: #fff;padding-left: 5px;border-radius: 3px 0 0 3px;}
+.td_search .search_but{height: 32px;width: 80px;border:1px solid #ccc;margin-left: -4px;border-radius: 0 3px 3px 0;cursor: pointer;}
+.table1 .td_info{height: 30px;color: #bbb;}
+.table1 .td_task{color: #bbb;}
+.table1 .td_table{width: 80%}
+
+.table1 .table2{border:1px solid #004986;margin-top: 20px;}
+.table2 td{padding-left: 4px;}
+.table2 .tr_list{background: #001c58;height: 30px;}
+.table2 .tr_list td{text-align: center;color: #fff;padding-left: 0px}
+.table2 .td1{width: 10%}
+.table2 .td2{width: 40%}
+.table2 .td3{width: 20%}
+.table2 .td4{width: 20%}
+.table2 .td5{width: 10%}
+.table2 .tr1{height: 30px;cursor: pointer;}
+.table2 .tr1:hover{background: #eee}
+.table2 .tr1.odd{background: #d1d1d1}
+.table2 .tr1.even{background: #7ecef4}
+
+.table1 .to_tasklist{height: 40px;width: 150px;border:1px solid #0955fa;background: #0075a9;color: #fff;font-size: 16px;font-weight: bold;cursor: pointer;margin-left: 20px;border-radius: 4px;}
+.table1 .to_tasklist.odd:hover{background: #129ad6}
+
+

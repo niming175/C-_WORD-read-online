@@ -1,0 +1,152 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="页眉登录.master.cs" Inherits="页眉登录" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<head runat="server">
+    <title></title>   
+<link rel="stylesheet" type="text/css" href="../css/command.css">
+<script src="../js/commandjs/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="../js/command.js"></script>
+<script src="../js/commandjs/md5.js" type="text/javascript"></script>
+    <asp:ContentPlaceHolder id="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+  
+    <div>
+       
+        <!--页眉通用部分-->
+   	<div class="head_div">
+   	    <div class="content">
+   	  	 <div class="logo pull_left"><h1>wwww.zygx.com</h1></div>
+        	<div class="search_div pull_right">
+       		<div class="search pull_left">
+       			<input class="search_box block pull_left" value="报告/类型/作者">
+       			<div class="search_but pull_left">
+                	<div class="search_icon inblock"></div>
+       			</div>
+       		</div>
+       		
+       		<div class="head_logoin_div pull_left ">
+            <div class="lohin_but button pull_left">
+              <div class="login_icon inblock"></div>
+              登录
+            </div>
+           <%-- <div class="register_but button pull_left">
+              <div class="register_icon inblock"></div>
+              注册
+            </div>--%> 
+          </div>
+          <div class="user_static pull_left hiden">
+            <img src="../images/userhead/img_head.jpg" height="30px" width="30px" class="user_head pull_left">
+            <div class="user_name pull_left">强虏灰飞烟灭</div>
+            <div class="user_logout pull_left">登出</div>
+          </div>
+
+        	</div>
+   	    </div>
+    </div>
+    <div class="menu_div clearfix">
+   	<div class="content">
+   		<div class="pull_left logo_div">
+   			<div class="pull_left logo_icon"></div>
+   			<div class="pull_left logo_text"></div>
+   		</div>
+   		<div class="menu_box pull_right">
+   			<div class="menu1 pull_left" divname="首页">首页</div>
+   			<div class="menu1 pull_left" divname="文库">文库</div>
+   			<div class="menu1 pull_left" divname="新闻">新闻</div>
+   			<div class="menu1 pull_left user_upload" divname="上传">上传</div>
+   			<div class="menu1 pull_left m_myfile" divname="我的报告">个人</div>
+   		</div>
+   	</div>
+   </div>
+
+   
+    <!--子页模块-->
+     <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    
+    </div>
+    
+
+
+      <div class="bottom_div">
+      <div class="content ">
+      
+        <div class="left pull_left">
+          <table class="table">
+            <tr>
+              <td colspan="3" class="link_title">友情连接</td>
+            </tr>
+            <tr>
+              <td class="link_text"><a href="#">论文网</a></td>
+              <td class="link_text"><a href="#">论文网</a></td>
+              <td class="link_text"><a href="#">论文网</a></td>
+            </tr>
+            <tr>
+              <td class=""><a href="#">论文网</a></td>
+              <td class=""><a href="#">论文网</a></td>
+              <td class=""><a href="#">论文网</a></td>
+            </tr>
+            <tr>
+              <td class=""><a href="#">论文网</a></td>
+              <td class=""><a href="#">论文网</a></td>
+              <td class=""><a href="#">论文网</a></td>
+            </tr>
+          </table>
+        </div>
+        <div class="right pull_right">
+          <div class="inscribe pull_left">
+            <div class="div1">实验报告共享与管理系统</div>
+            <div class="div1">&copy仅用于福建工程学院软件学院网络工程（专升本）毕业设计</div>
+            <div class="div1">地址：福建工程学院软件学院 &nbsp&nbsp&nbsp&nbsp 手机：18649803272</div>
+          </div>
+        </div>
+
+      </div>
+
+   </div>
+
+   <!--登录框-->
+   <div class="login_bg fixed fixed hiden">
+    <div class="absolute login_div">
+      <div class="login_box">
+        <div class="login_head  relative clearfix">
+          <div class=" login_close absolute">X</div>
+          <div class="text">登录</div>
+        
+        </div>
+        <table>
+          <tr>
+            <td class="td_text">账户：</td>
+            <td class="td_textbox"><input type="text" class="text_box log_phone phone" maxLength="11" value="请输入手机号"></td>
+            <td class="td_remark"><label class="remark_text log_phone hiden">账户不能为空</label></td>
+          </tr>
+          <tr>
+            <td class="td_text">密码：</td>
+            <td class="td_textbox"><input type="password" class="text_box password log_password focus" maxLength="18"></td>
+            <td class="td_remark"><label class="remark_text hiden log_psw">账户不能为空</label></td>
+          </tr>
+           <tr>
+            <td class="td_text"></td>
+            <td class="td_textbox">
+              <div class="inblock pull_right"><label class="have_quetion">登录遇到问题</label>&nbsp&nbsp|&nbsp&nbsp<label class="register_now">立即注册</label></div></td>
+            <td class="td_remark"><label class="remark_text hiden">账户不能为空</label></td>
+          </tr>
+          <tr class="tr_button">
+            <td></td>
+            <td><input type="button" class="login_button" value="马上登陆"></td>
+            <td></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+
+   </div>
+</body>
+</html>

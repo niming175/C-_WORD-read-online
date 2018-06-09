@@ -1,0 +1,31 @@
+﻿
+.hiden{display:none;}
+*{font-size: 12px;font-family: '微软雅黑';text-decoration: none;margin:0px;padding:0px;list-style:none;}
+
+.pull_left{float: left;}
+.pull_right{float: right;}
+.block{display:block}
+.inblock{display: inline-block; _zoom:1;*display:inline;}
+.clearfix { 
+  *zoom: 1; 
+} 
+.clearfix:before, 
+.clearfix:after {display: table;line-height: 0; content: ""; } 
+.clearfix:after {clear: both;}
+.test{border:1px solid red;}
+.relative{position: relative;}
+.absolute{position: absolute;}
+.center{text-align: center;}
+
+body {background:#fdfdfd;
+}
+
+.head{height:200px;width:100%;background:#1f1f1f;}
+.head .head_con{width:800px;height:100%;color:#fff;text-align:center;line-height:200px;margin:0 auto;}
+.head .head_con h1{font-size:40px; text-align:center}
+.head_con .text{width:200px;height:30px;line-height:30px;right:0px;top:20px; text-align:center;}
+.head_con .text .lb_out{margin-left:5px;color:#41dd1d; cursor:pointer;}
+.head_con .text .lb_out:hover{ text-decoration:uderline;}
+
+.botton{height:100px;width:100%; text-align:center; color:#fff; background:#1f1f1f;margin-top:40px;}
+.botton p{ margin-top:20px;}

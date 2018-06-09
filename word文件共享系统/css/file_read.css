@@ -1,0 +1,50 @@
+.filerad_content{width: 1000px;margin: 0 auto;margin-top: 20px;height: auto;}
+.filerad_content .content_div{width: 720px;height: auto;}
+
+.content_div .read_head_div{height: 24px;width: 700px;margin-left: 5px;}
+.content_div .read_head_div .word_icon{background: url(../images/icon/word_mini_icon.png);width: 16px;height: 16px;margin-top: 4px;}
+.content_div .read_head_div .title{font-size: 24px;line-height: 24px;margin-left: 5px;height: 24px;width: auto;}
+.content_div .deli_div{margin-left: 5px;width: auto;height: auto;margin-top: 5px;color: #a4a4a4}
+
+.filerad_content .file_content{min-width: 96%;min-height: 885px;padding:2%;height: auto;background: #fff;border: 1px solid #ccc;margin-top: 20px;overflow-x: scroll;}
+
+.filerad_content .discuss_div{width: 680px;margin-left: 10px;margin-top: 40px;height: auto;}
+.discuss_div .title{font-size: 18px;height: 18px;width: auto;}
+.discuss_div .textbox{height: 60px;padding: 10px;width: 100%;border: 1px solid #ccc;background: #fff;margin-top: 15px;}
+.discuss_div .discuss_but{height: 30px;width: 100%;margin-top: 10px;}
+.discuss_div .discuss_but .button {text-align: center; float: right; cursor: pointer; display:block;height: 28px;width: 98px;border-radius: 3px;font-size: 16px;color: #555;border:1px solid #ccc;}
+
+
+.filerad_content .discuss_list{width: 680px;height: auto;margin-top: 20px;margin-left: 10px;}
+.filerad_content .discuss_list .title{margin-top: 40px;font-size: 18px;height: 18px;line-height: 18px;}
+.discuss_list .title .discuss_count{color: #ccc;margin-left: 5px;}
+.discuss_list .list_div{width: 680px;margin-top: 20px;height: auto;}
+.discuss_list .list_div .list{height: 70px;border-bottom: 1px dashed #ccc;margin-top: 20px;}
+.list_div .list .headicon{height: 50px;width: 50px;border-radius: 25px;overflow: hidden;}
+.list_div .list .discuss_content{margin-left: 10px;width: 620px;height: 50px; text-align: left;}
+.list .discuss_content .discuss_er{height: 18px;line-height: 18px;color: #555}
+.list .discuss_content .time{color: #878787;}
+.list .discuss_content .discuss_text{margin-top: 4px;height: 28px;line-height:14px;color: #555;}
+
+
+/*右边边框*/
+.right_content{width:260px;height: auto;}
+.right_content .download_aboudread{width: 100%;height: 400px;background: #fff;border:1px solid #ccc;margin-top: 65px;}
+.right_content .download_aboudread .download{width: 218px;height: 50px;margin-left: 20px;margin-top: 10px;border:1px solid #e5e5e5;border-radius: 4px;text-align: center;line-height: 50px;font-size: 24px;color: #fff;background: #25a692;cursor: pointer;}
+.right_content .download_aboudread .download:hover{background: #19e4c5;}
+
+.right_content .download_aboudread .about_read_title, .right_content .hot_down .hot_download_title
+		{height: 30px;width:220px;font-size: 18px;line-height:30px;margin-left: 20px;margin-top: 15px;border-bottom: 1px solid #ccc;}
+
+.right_content .download_aboudread .aboudread_list_div{margin-left: 5px;margin-top: 10px;width: 240px;height: auto;}
+.download_aboudread .aboudread_list_div .aboutread_list, .hot_down .hotdown_list_div .hotdownload_list
+		{height: 12px;margin-top: 15px;list-style-type: square;margin-left: 30px;color: #0000ff;cursor: pointer;}
+.download_aboudread .aboudread_list_div .aboutread_list:hover, .hot_down .hotdown_list_div .hotdownload_list:hover{text-decoration: underline;}
+
+.right_content .hot_down{width: 100%;height: 350px;background: #fff;border:1px solid #ccc;margin-top: 15px;}
+.right_content .hot_down .hot_download_title{}
+.hot_down .hotdown_list_div {width: 240px;height: auto;margin-left: 5px;}
+
+.discuss_textbox .label{right: 5px;bottom: 5px;color: #ccc}
+.blur{color: #ccc}
+

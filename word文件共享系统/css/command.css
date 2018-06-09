@@ -1,0 +1,91 @@
+*{font-size: 12px;font-family: '微软雅黑';text-decoration: none;margin:0px;padding:0px;list-style:none;}
+
+.pull_left{float: left;}
+.pull_right{float: right;}
+.block{display:block}
+.inblock{display: inline-block; _zoom:1;*display:inline;}
+.clearfix { 
+  *zoom: 1; 
+} 
+.clearfix:before, 
+.clearfix:after {display: table;line-height: 0; content: ""; } 
+.clearfix:after {clear: both;}
+.test{border:1px solid red;}
+.relative{position: relative;}
+.absolute{position: absolute;}
+.fixed{position: fixed;}
+
+
+
+body{background: #fdfdfd}
+.head_div{width: 100%;height: 50px;border-bottom:1px solid #ccc;background-color: #141414;}
+.head_div .content{width:1000px;margin:0 auto; height:100%;}
+.head_div .logo{height: 100%;line-height: 50px;width: 40%;margin-left: 0px;color: #fff;}
+.head_div .search_div{height: 100%;width: auto;}
+.head_div .search_div .search{height: 30px;margin-top: 10px;width: 220px;border:1px solid #ccc;border-radius: 3px; overflow: hidden;}
+.head_div .search_div .search .search_box{padding-left: 5px; height: 30px;width: 160px;border-radius: 3px 0 0 3px;border:none; border-right: 1px solid #c7c6c5}
+.head_div .search_div .search .search_but{cursor: pointer; height: 30px;width: 54px;background: #eeeeed;border-left:none;text-align: center;line-height: 30px;}
+.head_div .search_div .search .search_but:hover{background: #ccc}
+.head_div .search_div .search_but .search_icon{height: 20px;width: 20px;background: url(../images/icon/search_icon.png);margin-top: 5px;}
+.head_div .search_div .button{font-size:14px;height: 32px;width: 100px;background: #404040;border-radius: 3px;color: #fff;margin-left: 5px;line-height: 30px;text-align: center;}
+.head_div .search_div .login_icon{height: 14px;width: 14px;background: url(../images/icon/login_icon.png);margin-top: 8px;}
+.head_div .search_div .register_icon{height: 14px;width: 14px;background: url(../images/icon/register_icon.png);margin-top: 8px;}
+.head_div .search_div .lohin_but{}
+.head_div .search_div .button:hover{background: #24a692;cursor: pointer;}
+.head_logoin_div{height: 30px;margin-top: 10px;margin-left: 20px;width: 210px}
+
+.menu_div{width: 100%;height: 100px;background-color: #141414}
+.menu_div .content{width: 1000px; margin: 0 auto;height: 100%;}
+.menu_div .logo_div{width: 360px;height: 88px;margin-left: 5px;margin-top: 5px;}
+.menu_div .logo_div .logo_icon{background: url(../images/icon/logo_icon.png);height: 88px;width: 79px;}
+.menu_div .logo_div .logo_text{height: 57px;width: 266px;background: url(../images/icon/logo_text1.png);margin-top: 15px;margin-left: 10px;}
+.menu_div .menu_box{width: 500px;height: 100%}
+.menu_div .menu_box .menu1{width: 100px;height: 100%;line-height: 100px;font-size: 16px;font-weight: bold;color: #fff;text-align: center;cursor: pointer;}
+.menu_div .menu_box .menu1:hover{background: #abaaaa;color: #e73214}
+
+.bottom_div{width: 100%;height: 120px;background: #151515;margin-top: 15px;}
+.bottom_div .content{width: 1000px;margin: 0 auto;height: 100%;}
+.bottom_div .content .table{margin-top: 15px;margin-left: 5px;}
+.bottom_div .content .link_title{color: #fff;font-size: 16px;text-align: left;width: 180px;}
+.bottom_div .content .link_text{width: 60px;height: 20px;line-height: 20px;text-align: left;color: #fff;font-size: 12px;}
+.bottom_div .content  a{color: #fff;font-size: 12px;}
+.bottom_div .content .right{width: 350px;height:60px;margin-top: 20px;}
+.bottom_div .content .right .div1{height: 20px;width: 100%;text-align: left;color: #fff;line-height: 20px;}
+
+
+
+/*头部已经登录*/
+.head_div .user_static{height: 30px;margin-top: 10px;margin-left: 20px;width: 205px; color: #fff;line-height: 30px;font-size: 14px;}
+.user_static .user_head{border-radius: 15px; display: block;}
+.user_static .user_name{cursor: pointer; height: 30px;line-height: 30px;max-width: 110px;overflow: hidden;margin-left: 10px;letter-spacing: 1px;text-align: right;}
+.user_static .user_name:hover{color: #00ff00}
+.user_static .user_logout{width: 40px;letter-spacing: 4px; cursor: pointer;font-size: 14px;margin-left: 5px}
+.user_static .user_logout:hover{color: #e73214;text-decoration: underline;}
+ 
+.hiden{display: none;}
+.body_overflow{height:auto;width: auto;overflow: hidden;}
+
+
+.login_bg{width: 100%;height: 100%;background: rgba(0,0,0,0.5);top:0px;left: 0px;z-index: 99}
+.over_hiden{overflow:hidden;}
+.login_div{height: 1px;width: 1px;left: 50%;top:50%;z-index: 100}
+.login_div .login_box{width: 400px;height: 270px;margin-top:-150px;margin-left: -200px;border:1px solid #ccc;background: #fff;border-radius: 4px;overflow: hidden;}
+.login_box .login_head{background: #797979;height: 50px;width:400px;border-bottom: 1px solid #ccc;}
+.login_box .login_head .text{height: 20px;margin-top: 15px;margin-left: 15px;color: #fff;font-size: 18px;line-height: 20px;font-weight: bolder;letter-spacing: 2px;}
+.login_head .login_close{border:1px solid #ccc;border-top: none;top:-1px;right: 15px;width: 30px;height: 20px;border-radius:0 0 3px 3px;text-align: center;line-height: 20px;cursor:pointer;}
+.login_head .login_close:hover{background: #eee}
+
+.login_div table{width: 350px;margin-top: 20px;margin-left: 25px;}
+.login_div table tr{height: 40px;}
+.login_div .td_text{letter-spacing: 4px;width: 60px;}
+.login_div .td_textbox{width: 210px;}
+.login_div  .td_remark{width: 75px;}
+.login_div .td_textbox .text_box{width: 200px;height: 30px;border:1px solid #ccc;border-radius: 3px;line-height: 30px;padding-left: 5px;color: #ddd}
+.login_div .tr_button{height: 50px;}
+.login_div .tr_button .login_button{width: 220px;height: 40px;background:#2e82ff;border:1px solid #ddd;border-radius: 4px;color:#fff;cursor: pointer; font-size: 18px;font-weight: bolder;letter-spacing: 3px}
+.login_div .tr_button .login_button:hover{background: #70a8fc}
+.login_div .have_quetion, .login_div .register_now{color: #2e82ff;letter-spacing: 1px;}
+.login_div .have_quetion:hover, .login_div .register_now:hover{text-decoration: underline;}
+.hiden{display:none;}
+.login_div .text_box.focus{color: #3d3d3d;}
+.error{color: red}

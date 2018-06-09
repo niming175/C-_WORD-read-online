@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DC86ACBE-1E6E-4405-90F6-3B0F26B66699}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>word文件共享系统</RootNamespace>
+    <AssemblyName>word文件共享系统</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ajax\file_list.aspx" />
+    <Content Include="ajax\file_read.aspx" />
+    <Content Include="ajax\index.aspx" />
+    <Content Include="ajax\manerager.aspx" />
+    <Content Include="ajax\taskfile_read.aspx" />
+    <Content Include="ajax\upload.aspx" />
+    <Content Include="ajax\user_register.aspx" />
+    <Content Include="ajax\user_upload.aspx" />
+    <Content Include="ajax\user_zoom.aspx" />
+    <Content Include="ajax\确认是否登录.aspx" />
+    <Content Include="bg_index.aspx" />
+    <Content Include="css\command.css" />
+    <Content Include="css\file_list.css" />
+    <Content Include="css\file_read.css" />
+    <Content Include="css\style.css" />
+    <Content Include="css\taskfile_read.css" />
+    <Content Include="css\user_register.css" />
+    <Content Include="css\user_upload.css" />
+    <Content Include="css\user_zoom.css" />
+    <Content Include="images\bg_1.jpg" />
+    <Content Include="images\bg_2.jpg" />
+    <Content Include="images\bg_3.jpg" />
+    <Content Include="images\bg_3.png" />
+    <Content Include="images\bg_4.jpg" />
+    <Content Include="images\bg_4.png" />
+    <Content Include="images\bg_5.jpg" />
+    <Content Include="images\gif\loding.gif" />
+    <Content Include="images\gif\uploading.gif" />
+    <Content Include="images\icon\banner_text1.png" />
+    <Content Include="images\icon\banner_text2.png" />
+    <Content Include="images\icon\classify.png" />
+    <Content Include="images\icon\classify_1.png" />
+    <Content Include="images\icon\classify_2.png" />
+    <Content Include="images\icon\login_icon.png" />
+    <Content Include="images\icon\logo_icon.png" />
+    <Content Include="images\icon\logo_text1.png" />
+    <Content Include="images\icon\logo_text2.png" />
+    <Content Include="images\icon\ok_icon.png" />
+    <Content Include="images\icon\register_icon.png" />
+    <Content Include="images\icon\search_icon.png" />
+    <Content Include="images\icon\uplode_hover.png" />
+    <Content Include="images\icon\uplode_icon.png" />
+    <Content Include="images\icon\word_icon.png" />
+    <Content Include="images\icon\word_mini_icon.png" />
+    <Content Include="images\userhead\default.jpg" />
+    <Content Include="images\userhead\img_head.jpg" />
+    <Content Include="images\userhead\img_head2.png" />
+    <Content Include="index.aspx" />
+    <Content Include="index\index.aspx" />
+    <Content Include="js\command.js" />
+    <Content Include="js\commandjs\fileload.js" />
+    <Content Include="js\commandjs\jquery-1.8.3.min.js" />
+    <Content Include="js\commandjs\jquery-2.2.2.min.js" />
+    <Content Include="js\commandjs\jquery.form.js" />
+    <Content Include="js\commandjs\md5.js" />
+    <Content Include="js\file_list.js" />
+    <Content Include="js\file_read.js" />
+    <Content Include="js\index.js" />
+    <Content Include="js\jquery-1.4.1.min.js" />
+    <Content Include="js\jquery.ajaxfileupload.js" />
+    <Content Include="js\jquery.luara.0.0.1.min.js" />
+    <Content Include="js\taskfile_read.js" />
+    <Content Include="js\user_register.js" />
+    <Content Include="js\user_upload.js" />
+    <Content Include="js\user_zoom.js" />
+    <Content Include="page\file_list.aspx" />
+    <Content Include="page\file_read.aspx" />
+    <Content Include="page\taskfile_read.aspx" />
+    <Content Include="page\user_register.aspx" />
+    <Content Include="page\user_upload.aspx" />
+    <Content Include="page\user_zoom.aspx" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="后台管理\ajax\bg_read.aspx" />
+    <Content Include="后台管理\ajax\instructor.aspx" />
+    <Content Include="后台管理\ajax\man-tea.aspx" />
+    <Content Include="后台管理\ajax\manerager.aspx" />
+    <Content Include="后台管理\ajax\teacher_maneage.aspx" />
+    <Content Include="后台管理\bg_login.aspx" />
+    <Content Include="后台管理\bg_read.aspx" />
+    <Content Include="后台管理\css\bg_index.css" />
+    <Content Include="后台管理\css\bg_read.css" />
+    <Content Include="后台管理\css\file_manerge.css" />
+    <Content Include="后台管理\css\manerager.css" />
+    <Content Include="后台管理\css\master.css" />
+    <Content Include="后台管理\css\tasl_list.css" />
+    <Content Include="后台管理\css\teacher_maneage.css" />
+    <Content Include="后台管理\images\bg1.jpg" />
+    <Content Include="后台管理\images\icon\add.png" />
+    <Content Include="后台管理\images\icon\close.png" />
+    <Content Include="后台管理\images\icon\error.png" />
+    <Content Include="后台管理\images\icon\icon_searchhover.png" />
+    <Content Include="后台管理\images\icon\icon_serch.png" />
+    <Content Include="后台管理\images\icon\ok.png" />
+    <Content Include="后台管理\images\icon\open.png" />
+    <Content Include="后台管理\instructor.aspx" />
+    <Content Include="后台管理\js\bg.js" />
+    <Content Include="后台管理\js\bg_index.js" />
+    <Content Include="后台管理\js\bg_read.js" />
+    <Content Include="后台管理\js\file_manerge.js" />
+    <Content Include="后台管理\js\jquery-2.2.2.min.js" />
+    <Content Include="后台管理\js\manerager.js" />
+    <Content Include="后台管理\js\md5.js" />
+    <Content Include="后台管理\js\task_list.js" />
+    <Content Include="后台管理\js\teacher_manegae.js" />
+    <Content Include="后台管理\manerager.aspx" />
+    <Content Include="后台管理\teacher_maneage.aspx" />
+    <Content Include="后台管理\母版页\teacher_maneage.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ajax\file_list.aspx.cs">
+      <DependentUpon>file_list.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ajax\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ajax\manerager.aspx.cs">
+      <DependentUpon>manerager.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ajax\user_register.aspx.cs">
+      <DependentUpon>user_register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bg_index.aspx.cs">
+      <DependentUpon>bg_index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="page\file_read.aspx.cs">
+      <DependentUpon>file_read.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="page\user_register.aspx.cs">
+      <DependentUpon>user_register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="page\user_upload.aspx.cs">
+      <DependentUpon>user_upload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="后台管理\ajax\instructor.aspx.cs">
+      <DependentUpon>instructor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="后台管理\ajax\instructor.aspx.designer.cs">
+      <DependentUpon>instructor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="后台管理\ajax\man-tea.aspx.cs">
+      <DependentUpon>man-tea.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="后台管理\ajax\man-tea.aspx.designer.cs">
+      <DependentUpon>man-tea.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="后台管理\ajax\manerager.aspx.cs">
+      <DependentUpon>manerager.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="后台管理\bg_login.aspx.cs">
+      <DependentUpon>bg_login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="后台管理\bg_manerge.master.cs">
+      <DependentUpon>bg_manerge.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="后台管理\bg_read.aspx.cs">
+      <DependentUpon>bg_read.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="后台管理\instructor.aspx.cs">
+      <DependentUpon>instructor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="后台管理\instructor.aspx.designer.cs">
+      <DependentUpon>instructor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="后台管理\manerager.aspx.cs">
+      <DependentUpon>manerager.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="后台管理\teacher_maneage.aspx.cs">
+      <DependentUpon>teacher_maneage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="后台管理\母版页\bg_manerge.master.cs">
+      <DependentUpon>bg_manerge.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="后台管理\母版页\teacher_maneage.aspx.cs">
+      <DependentUpon>teacher_maneage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="母板页\页眉登录.master.cs">
+      <DependentUpon>页眉登录.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Account\" />
+    <Folder Include="App_Data\" />
+    <Folder Include="images\bg_image\" />
+    <Folder Include="index\aspnet_client\system_web\2_0_50727\" />
+    <Folder Include="Styles\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="web.Debug.config">
+      <DependentUpon>web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="web.Release.config">
+      <DependentUpon>web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\icon\register_icon.psd" />
+    <None Include="images\icon\uplode_hover.psd" />
+    <None Include="images\userhead\201604232103175728.doc" />
+    <Content Include="index\web.config" />
+    <Content Include="后台管理\bg_manerge.master" />
+    <None Include="后台管理\data\afix\2016\05\11\210709.doc" />
+    <None Include="后台管理\data\afix\2016\05\11\210913.doc" />
+    <None Include="后台管理\data\afix\2016\05\11\211147.doc" />
+    <Content Include="后台管理\web.config" />
+    <Content Include="后台管理\母版页\bg_manerge.master" />
+    <Content Include="母板页\页眉登录.master" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\业务逻辑层.dll\业务逻辑层.dll.csproj">
+      <Project>{07E7B2B5-5A19-4C51-B3EC-C9FF2C9AAD45}</Project>
+      <Name>业务逻辑层.dll</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>4</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Word">
+      <Guid>{00020905-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>8</VersionMajor>
+      <VersionMinor>4</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1140</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

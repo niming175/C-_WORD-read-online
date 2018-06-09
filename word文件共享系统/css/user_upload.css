@@ -1,0 +1,57 @@
+.content_div{width: 100%;height: 600px;background: url(../images/bg_4.png) repeat-x;}
+.content_div .content{width: 1000px;margin: 0 auto;} 
+.content .con_text{height: 50px;margin-top: 20px;font-size: 18px;color: #fff;margin-left: 10px;line-height: 50px;letter-spacing: 2px;}
+
+.content .con_left{height: 450px;width: 500px;margin-top: 10px; border:1px solid #ccc;border-radius: 3px;box-shadow:3px 3px 7px #404040;;background: rgba(200,200,200,0.5);}
+.content .con_left .upload_table{width: 450px;margin-left: 25px;margin-top: 20px;}
+.content .con_left .upload_table .tr{height: 50px;}
+.content .con_left .upload_table .input{border-radius: 3px;height: 30px;border:1px solid #ccc;}
+
+.upload_table .file_name_box{width: 200px;}
+
+.upload_table .fiel_type{width: 100px;border-radius: 3px;height: 30px;}
+.upload_table .tr_area{height: 76px;}
+.upload_table .file_area{height: 60px;width: 200px; border-radius: 3px;border:1px solid #ccc;padding: 5px;line-height: 20px;}
+.con_left .select_file{width: 0px;height: 0px;display: block;overflow: hidden;}
+.upload_table .select_botton{width: 100px;cursor: pointer;}
+.upload_table .select_botton:hover{background: #eee;}
+.upload_table .file_txt{width: 200px;}
+.upload_table .upload_remark{width: 140px}
+.upload_table .upload_textbox{width: 220px;}
+.upload_table .upload_text{width: 80px;letter-spacing: 2px;}
+
+
+.button_box{width: 450px;margin: 0 auto;height: 50px;margin-top:40px;}
+.button_box .upload_button{width: 200px;height: 50px;line-height: 50px;border:1px solid #f7a300;background:#F0862B;border-radius: 5px;font-size: 16px;font-weight: bolder;color: #fff;cursor: pointer;margin-right: 20px;cursor: pointer;}
+.button_box .upload_button:hover{background: #fb9844}
+
+
+.con_right{width: 450px;border-left: 1px solid #6c6c6c;height: 410px;margin-top: 20px}
+.con_right .upload-notice{margin-left: 30px;width: 420px;height: 400px;}
+.con_right .upload-notice li{line-height: 30px}
+.con_right .upload-notice h4{color: #d2d2d2}
+
+.hiden{display: none;}
+
+
+/*头部已经登录*/
+.head_div .user_static{height: 30px;margin-top: 10px;margin-left: 20px;width: 205px; color: #fff;line-height: 30px;font-size: 14px;}
+.user_static .user_head{border-radius: 15px; display: block;}
+.user_static .user_name{cursor: pointer; height: 30px;line-height: 30px;max-width: 110px;overflow: hidden;margin-left: 10px;letter-spacing: 1px;text-align: right;}
+.user_static .user_name:hover{color: #00ff00}
+.user_static .user_logout{width: 40px;letter-spacing: 4px; cursor: pointer;font-size: 14px;margin-left: 5px}
+.user_static .user_logout:hover{color: #e73214;text-decoration: underline;}
+
+
+.upload_table .input{padding-left: 5px;}
+.remark {color: green}
+.error{color: red}
+.file_area_num{bottom: 2px;left: 5px;color: #333}
+
+
+.upload_bd{height: 100%;width: 100%;background: rgba(0,0,0,0.5);top:0px;left: 0px}
+.upload_bd .point{height: 0px;width: 0px;left: 50%;top: 50%;}
+.upload_bd .uploding_div{height: 50px;width: 220px;margin-top: -13px;margin-left: -110px;text-align: center;}
+.upload_bd .loding_la{color: #fff;margin-top: 5px;}
+.upload_bd .loding_la.error{color: red}
+

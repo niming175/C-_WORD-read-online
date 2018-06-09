@@ -1,0 +1,70 @@
+.conter_div {width: 1000px;height: auto;margin: 0 auto; margin-top: 30px;}
+.conter_div .left{width: 20%;border:1px solid #ccc;background: #fff;}
+.conter_div .left .title{font-size: 16px;margin-top: 20px;margin-left: 5%;}
+.conter_div .left hr{margin: 0 auto;margin-top: 10px;background: #ccc;width: 94%; }
+.conter_div .left .hello_text{margin-top: 10px;margin-left: 5%}
+.left .myclass_title{margin-left: 5%}
+.left .my_class .class_label{margin-top: 5px;margin-left: 8%;}
+
+.left .menu_liat_div{margin-top: 15px;border-top: 1px solid #eee}
+.menu_liat_div .menu_list{height: 40px;width: 92%;border-bottom: 1px solid #eee;line-height: 40px;padding-left: 8%;cursor: pointer;font-size: 14px;color: #3d3d3d}
+.menu_liat_div .menu_list:hover{background: #f4f2f2;border-right: 3px solid #0075a9;}
+.menu_liat_div .menu_list.active{background: #f4f2f2;border-right: 3px solid #0075a9;cursor: default;}
+
+.conter_div .right{width: 78%;height: auto;}
+.task_list_div .title, .add_task_div .title, .right_con_div .title{margin-top: 5px;margin-left: 5px;font-size: 16px}
+.task_list_div hr, .add_task_div hr, .right_con_div hr{margin-top: 5px;}
+
+.task_list_div .table2{margin-top: 10px;}
+
+.task_table .title_box{padding-left: 5px;width: 200px;}
+.task_table .task_area{padding: 5px;}
+.task_table .td_box{width: 50%;}
+.td_remark .remark{margin-left: 10px;}
+.td_remark .label_text{margin-top: 10px;}
+.task_list_tbody .tasklist_title{color: blue}
+.task_list_tbody .tasklist_title:hover{text-decoration: underline;}
+
+/*公告详情*/
+.taskdetails_table{margin-top: 20px;width: 300px;}
+.taskdetails_table .tr1{height: 30px;vertical-align: top;}
+.taskdetails_table .tr2{min-height: 50px;vertical-align: top;padding-top: 5px;}
+.taskdetails_table .td1{width: 20%;}
+.taskdetails_table .td2{width: 30%; }
+.taskdetails_table .td_taskreques{width: 100%;min-height: 50px;}
+
+/*公告详情列表*/
+.taskedtails_list{width: 600px;border:1px solid #ccc;margin-top: 10px;}
+.taskedtails_list tr{height: 30px;}
+.taskedtails_list .tr_head{background: #a5a5a5;color: #fff;text-align: center;}
+.taskedtails_list .tr_head .td1{width: 10%}
+.taskedtails_list .tr_head .td2{width: 50%}
+.taskedtails_list .tr_head .td3{width: 10%}
+.taskedtails_list .tr_head .td4{width: 20%}
+.taskedtails_list .tr_head .td5{width: 10%}
+.taskdetails_tbody .td2{padding-left: 2%;width: 48%}
+.taskdetails_tbody .td3{padding-left: 2%;width: 8%}
+.taskdetails_tbody .tr2{background: #eee}
+.taskedtails_list .taskfile_title{color: blue;cursor: pointer;}
+.taskedtails_list .taskfile_title:hover{text-decoration: underline;}
+
+.task_table .addafix_but{height: 30px;width: 80px;cursor: pointer;}
+
+.taskdetails_table .afixdown{color: blue}
+.taskdetails_table .afixdown:hover{text-decoration: underline;}
+.taskdetails_table .afixdown.none{color: #ccc;text-decoration: none;}
+
+.task_details .task_back {right: 5px;top: 5px;color: green;cursor: pointer;}
+
+/*修改密码*/
+.changepsw_table{margin-top: 20px;width: auto;height: auto;}
+.changepsw_table .tr{height: 50px;}
+.changepsw_table .tr1{height: 60px;}
+.changepsw_table .td1{width: 80px;vertical-align: middle;}
+.changepsw_table .td2{width: 220px;}
+.changepsw_table .td3{width: 200px;text-align: left;}
+
+.changepsw_table .tr input{height: 30px;width: 200px;border:1px solid #ccc;border-radius: 3px;background: #fff;padding-left: 5px;}
+
+.changepsw_table .changepsw_but{height: 30px;width: 150px;color: green;font-size: 14px;font-weight: bold;margin-top: 20px;margin-right: 13px;cursor: pointer;}
+.error{color: red}

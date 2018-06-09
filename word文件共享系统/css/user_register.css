@@ -1,0 +1,49 @@
+.content_div{width: 100%;height: 600px;background: url(../images/bg_2.jpg) no-repeat;}
+.bottom_div{margin-top: 0px;}
+.head_div{display: none;}
+
+
+.content_div .register_div{width: 1000px;height: 600px;margin: 0 auto;}
+.register_table{height: 500px;width: 500px;border-radius: 5px;*background: url(../images/bg_3.png) repeat-x;border:1px solid #ccc;margin-top: 50px;background-color:rgba(33,33,33,0.5)}
+
+.register_table .register_head{height: 40px;letter-spacing:1px;line-height: 40px;margin-top: 10px;font-size: 16px;color: #fff;width: 460px;margin-left: 20px;border-bottom: 1px solid #d2d2d2;}
+.register_table .register_head a{font-size: 16px;color: #8fc31f;margin-left: 2px;}
+.register_table .register_head a:hover{text-decoration: underline;}
+
+.register_table .table{width: 460px;margin-top: 20px;margin-left: 20px;color: #fff;letter-spacing: 1px;}
+.register_table .table tr{height: 44px;line-height: 40px;}
+
+.register_table .table .td_box{width: 220px;}
+.register_table .table .td_text{width: 80px;}
+.register_table .table .td_remark{text-align: left;padding-left: 10px;color: red}
+.register_table .table .textbox{height: 30px;width: 200px;border-radius: 3px;border:1px solid #ccc;padding-left: 5px;}
+
+.register_table .table .td_div{line-height: 14px;height: 14px;}
+.register_table .table .check_div{height: 14px;width:14px;}
+.register_table .table .check_div label{display: block;float: left;height: 14px;}
+.register_table .table .checkbox{height: 14px;width: 14px;cursor: pointer;}
+.register_table .table .agree_text{height: 14px;line-height: 14px;margin-left: 5px;}
+.register_table .table .label{color: #93d7f6;cursor: pointer;}
+.register_table .table .label:hover{text-decoration: underline;}
+
+.register_table .table .lb_remark{color: #b3d465}
+.register_table .table .lb_remark.error{color: red;}
+.register_table .table .tr_button{height: 80px;}
+.tr_button .re_button{height: 50px;width: 220px;border:1px solid #f7a300;font-size: 18px;font-weight: bold;background: #f8b002;color: #fff;letter-spacing: 2px;border-radius: 3px;cursor: pointer;}
+.tr_button .re_button:hover{background: #fac136}
+
+.protocol_div{height: 500px;width: 476px;border-radius: 5px;*background: url(../images/bg_3.png) repeat-x;border:1px solid #ccc;margin-left: 20px;margin-top: 50px;background-color:rgba(255,255,255,0.5);
+}
+.protocol_div .pro_head{height: 50px;border-bottom: 1px solid #ccc;background: rgba(255,255,255,0.4);}
+.pro_head .head_text{color: #000;width: 100%;text-align: center;height: 100%;line-height: 50px;font-size: 18px;font-weight: bold;}
+.protocol_div .content{width: 446px;padding: 15px;height:409px;margin-top:10px;overflow: scroll;}
+.pro_head .head_close{height: 20px;width: 30px;top: -1px;right: 15px;border:1px solid #ccc;border-top: none;border-radius: 0 0 3px 3px;text-align: center;line-height: 20px;cursor: pointer;}
+.pro_head .head_close:hover{background: rgba(33,33,33,0.2);}
+
+.td_remark .ok_icon{height: 16px;width:16px;background: url(../images/icon/ok_icon.png);overflow: hidden;margin-left: 10px; }
+
+
+.select{height: 30px;width: 90px;border-radius: 3px;}
+.select.grade{width: 110px}
+
+.hiden{display: none;}
